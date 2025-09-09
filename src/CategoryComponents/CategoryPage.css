@@ -1,0 +1,31 @@
+.recipe-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
+
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 5px;              /* space inside */
+    border-radius: 12px;        /* rounded corners */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* subtle shadow */
+    margin: 10px 0;             /* space between cards */
+}
+
+.recipe-container i{
+    background-color: white;
+}
+
+.recipe-details p {
+    background-color: white;
+}
+
+.recipe-details {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}

@@ -1,0 +1,101 @@
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .enter-btn {
+    position: static;  /* remove absolute positioning */
+    width: 100%;       /* full width */
+    height: auto;
+    margin-top: 12px;
+    border-radius: 8px;
+    opacity: 1;        /* always visible */
+    transform: none;  
+  }
+
+  .category-card {
+    flex-direction: column; /* stack items vertically */
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.category-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    /* background: #fff; */
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: relative;
+    transition: transform 0.2s ease;
+    overflow: hidden;
+}
+
+.category-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+}
+
+
+.category-card:hover {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.category-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.category-info p {
+  margin: 0;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.enter-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;                /* half of card width */
+    height: 100%;              /* full height of card */
+    background: #00c896;
+    color: white;
+    display: flex;             /* center text */
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.3s ease;
+}
+/* Show Enter button on hover */
+.category-card:hover .enter-btn {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.icon {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
+
+.category-info h3, .category-info p {
+    background: white;
+    padding: 4px 8px;
+}
