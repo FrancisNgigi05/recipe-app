@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
-import {  useNavigate } from 'react-router-dom';
+import {  useNavigate, NavLink } from 'react-router-dom';
 import { API_URL } from '../../api';
 import { CATEGORIES } from '../constants';
+import { ArrowLeft } from 'lucide-react';
 
 function AddRecipe() {
     const navigate = useNavigate();
@@ -70,6 +71,7 @@ function AddRecipe() {
 
     return (
         <div style={{padding: "1rem"}}>
+            <NavLink to="/"><ArrowLeft /></NavLink>
             <h1>Add a new recipe</h1>
             <form action="" onSubmit={handleSubmit} className='form'>
                 <input
