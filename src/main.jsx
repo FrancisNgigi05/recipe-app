@@ -8,20 +8,26 @@ import RecipeDetail from './RecipeDetailsComponent/RecipeDetail'
 import ErrorPage from './ErrorPageComponent/ErrorPage'
 import Ingredients from './RecipeDetailsComponent/Ingredients'
 import Preparation from './RecipeDetailsComponent/Preparation'
+import Layout from './LayoutComponent/Layout'
+import AddRecipe from './AddRecipeComponent/AddRecipe'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<App />} />
-      <Route path="/recipes/:category" element={<CategoryPage />} />
+      <Route element={<Layout />}>
 
-      <Route path="/recipe/:id" element={<RecipeDetail />}>
-        <Route index element={<Ingredients />}/>
-        <Route path="ingredient" element={<Ingredients />} />
-        <Route path="preparation" element={<Preparation />} />
+        <Route path="/" element={<App />} />
+        <Route path="/recipes/:category" element={<CategoryPage />} />
+
+        <Route path="/recipe/:id" element={<RecipeDetail />}>
+          <Route index element={<Ingredients />}/>
+          <Route path="ingredient" element={<Ingredients />} />
+          <Route path="preparation" element={<Preparation />} />
+        </Route>
+
+        <Route path="*" element={<ErrorPage />} />
       </Route>
-
-      <Route path="*" element={<ErrorPage />} />
+      <Route path='/add' element={<AddRecipe/>}/>
     </>
   )
 );
