@@ -24,8 +24,8 @@ Sort alphabetically or add tags/categories.
 Roadmap Overview
 Day	Goal
 Day 1	Scaffold project, set up React Router (/, /recipes, /recipes/:id, /add). => Done
-Day 2	Implement fetching recipes (GET), display list, and details page. => Almost done... All that is left is styling
-Day 3	Build "Add Recipe" form (POST), test creating entries.
+Day 2	Implement fetching recipes (GET), display list, and details page. => Done
+Day 3	Build "Add Recipe" form (POST), test creating entries. => 
 Day 4	Add Edit capability (PUT/PATCH) for existing recipes.
 Day 5	Implement Delete feature and filtering/search on the list.
 Day 6	Polish UI: implement the provided mobile layout and navigation.

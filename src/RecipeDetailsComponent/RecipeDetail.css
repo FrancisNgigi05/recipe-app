@@ -4,6 +4,7 @@
     align-items: center;
     margin: 0px;
     padding: 0px;
+    position: relative;
 }
 .details-container img {
   width: 100%;       /* make it span full width */
@@ -21,4 +22,47 @@
 .nav-links {
     display: flex;
     gap: 10px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link.active {
+  color: orange;
+  font-weight: bold;
+}
+
+#top-image {
+  margin-top: -8px;
+  width: 100vw;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#title {
+  margin-left: -50px;
+  margin-bottom: 50px;
+}
+
+.back-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  z-index: 10;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 6px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

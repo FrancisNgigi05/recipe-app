@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react'
-import { useParams, Link } from 'react-router-dom'
+import { useParams, Link, NavLink } from 'react-router-dom'
 import { API_URL } from '../../api'
 import './CategoryPage.css'
+import { ArrowLeft } from 'lucide-react'
 
 function CategoryPage() {
     const {category} = useParams();
@@ -37,6 +38,7 @@ function CategoryPage() {
 
     return (
         <>
+            <NavLink className='nav-link' to="/"><ArrowLeft size={30}/></NavLink>
             {recipesDisplayed}
         </>
     )

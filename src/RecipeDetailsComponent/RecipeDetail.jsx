@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import { NavLink, Outlet, useParams } from 'react-router-dom'
 import { API_URL } from '../../api';
 import './RecipeDetail.css'
+import { ArrowLeft } from 'lucide-react';
 
 function RecipeDetail() {
   const [recipe, setRecipe] = useState(null);
@@ -23,6 +24,7 @@ function RecipeDetail() {
         console.log(data);
         setRecipe(data)
       })
+      .catch(err => setError(err))
 
   }, [recipeId]);
   
@@ -36,12 +38,14 @@ function RecipeDetail() {
 
   return (
     <div className='details-container'>
-      <img src={recipe.image} alt={recipe.title} />
-      <h1>{recipe.title}</h1>
+      <NavLink className="back-btn" to={`/recipes/${recipe.category.toLowerCase()}`}><ArrowLeft size={28}/></NavLink>
+      <img id="top-image" src={recipe.image} alt={recipe.title} />
+      <h1 id="title">{recipe.title}</h1>
       <nav className='nav-links'>
         {/* tyle={{textDecoration: "none", color: "inherit"} */}
-        <NavLink to='ingredient' style={{textDecoration: "none", color: "inherit"}}>Ingredients</NavLink>
-        <NavLink to='preparation' style={{textDecoration: "none", color: "inherit"}}>Instructions</NavLink>
+        <NavLink className="link" to='ingredient'>Ingredients</NavLink>
+        <NavLink className="link" to='preparation'>Instructions</NavLink>
+        {/* <NavLink className="back-btn" to={`/recipes/${recipe.category.toLowerCase()}`}>Back</NavLink> */}
       </nav>
       <main>
         <Outlet />
