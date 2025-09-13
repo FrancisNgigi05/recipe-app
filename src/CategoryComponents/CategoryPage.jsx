@@ -46,7 +46,7 @@ function CategoryPage() {
 
     return (
         <>
-            <NavLink className='nav-link' to="/"><ArrowLeft size={30}/></NavLink>
+            <NavLink className='nav-link' to="/" style={{marginTop: "20px"}}><ArrowLeft size={30}/></NavLink>
             <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
             {recipesDisplayed}
         </>
