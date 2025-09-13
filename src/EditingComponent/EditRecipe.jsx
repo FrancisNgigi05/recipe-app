@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import { NavLink, useNavigate, useParams } from 'react-router-dom'
 import { API_URL } from '../../api';
 import './EditRecipe.css'
 import { CATEGORIES } from '../constants';
+import { ArrowLeft } from 'lucide-react';
 
 function EditRecipe() {
     const {id} = useParams();
@@ -89,6 +90,9 @@ function EditRecipe() {
 
     return (
         <form onSubmit={handleSubmit}>
+            <NavLink to={`/recipe/${id}`}>
+                <ArrowLeft size={28}/>
+            </NavLink>
             <h2>Edit Recipe</h2>
 
             <input
