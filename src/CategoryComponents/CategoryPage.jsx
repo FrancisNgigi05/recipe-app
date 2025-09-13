@@ -3,10 +3,12 @@ import { useParams, Link, NavLink } from 'react-router-dom'
 import { API_URL } from '../../api'
 import './CategoryPage.css'
 import { ArrowLeft } from 'lucide-react'
+import SearchBar from '../SearchComponent/SearchBar'
 
 function CategoryPage() {
     const {category} = useParams();
     const [recipes, setRecipes] = useState([]);
+    const [searchTerm, setSearchTerm] = useState("");
 
     useEffect(() => {
         fetch(API_URL)
@@ -20,7 +22,13 @@ function CategoryPage() {
     }, [category]);
     
 
-    const recipesDisplayed = recipes.map((recipe) => {
+    // Filter recipes based on search term
+    const filteredRecipes = recipes.filter(recipe => 
+        recipe.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
+
+    const recipesDisplayed = filteredRecipes.map((recipe) => {
         console.log(recipe.image);
         
         return(
@@ -39,6 +47,7 @@ function CategoryPage() {
     return (
         <>
             <NavLink className='nav-link' to="/"><ArrowLeft size={30}/></NavLink>
+            <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
             {recipesDisplayed}
         </>
     )
