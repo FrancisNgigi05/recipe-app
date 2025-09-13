@@ -22,11 +22,19 @@ Filter/search recipes by title.
 Sort alphabetically or add tags/categories.
 
 Roadmap Overview
+
 Day	Goal
+
 Day 1	Scaffold project, set up React Router (/, /recipes, /recipes/:id, /add). => Done
+
 Day 2	Implement fetching recipes (GET), display list, and details page. => Done
+
 Day 3	Build "Add Recipe" form (POST), test creating entries. => Done
-Day 4	Add Edit capability (PUT/PATCH) for existing recipes.
+
+Day 4	Add Edit capability (PUT/PATCH) for existing recipes. => Done
+
 Day 5	Implement Delete feature and filtering/search on the list. => Done
+
 Day 6	Polish UI: implement the provided mobile layout and navigation. => Done
+
 Day 7	Deploy the app, push to GitHub, and reflect on what you learned.# recipe-app
