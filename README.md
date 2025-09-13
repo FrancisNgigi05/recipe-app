@@ -27,6 +27,10 @@ Day 1	Scaffold project, set up React Router (/, /recipes, /recipes/:id, /add). =
 Day 2	Implement fetching recipes (GET), display list, and details page. => Done
 Day 3	Build "Add Recipe" form (POST), test creating entries. => Done
 Day 4	Add Edit capability (PUT/PATCH) for existing recipes.
-Day 5	Implement Delete feature and filtering/search on the list. => Search Feature is Done
-Day 6	Polish UI: implement the provided mobile layout and navigation.
+
+
+
+
+Day 5	Implement Delete feature and filtering/search on the list. => Done
+Day 6	Polish UI: implement the provided mobile layout and navigation. => Done
 Day 7	Deploy the app, push to GitHub, and reflect on what you learned.# recipe-app
