@@ -41,7 +41,7 @@ function Ingredients() {
 
     return (
         <div>
-            <h1>Ingredient</h1>
+            <h1>Ingredients</h1>
             <ul>
                 {displayedIngredient}
             </ul>
