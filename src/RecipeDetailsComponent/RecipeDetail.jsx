@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import { NavLink, Outlet, useParams, useNavigate } from 'react-router-dom'
 import { API_URL } from '../../api';
 import './RecipeDetail.css'
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Edit } from 'lucide-react';
 
 function RecipeDetail() {
   const [recipe, setRecipe] = useState(null);
@@ -69,6 +69,9 @@ function RecipeDetail() {
         <Outlet />
       </main>
       <button id="delete-btn" onClick={handleDelete}>Delete</button>
+      <NavLink to={`/recipes/${recipeId}/edit`}>
+        <button id="edit-btn">Edit</button>
+      </NavLink>
     </div>
   )
 }

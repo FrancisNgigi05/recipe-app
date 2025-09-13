@@ -71,10 +71,22 @@
   border-radius: 5px;
   height: 30px;
   width: 100px;
-  margin-top: 40px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 #delete-btn:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+#edit-btn {
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+}
+
+#edit-btn:hover {
   background-color: red;
   cursor: pointer;
 }

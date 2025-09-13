@@ -10,6 +10,7 @@ import Ingredients from './RecipeDetailsComponent/Ingredients'
 import Preparation from './RecipeDetailsComponent/Preparation'
 import Layout from './LayoutComponent/Layout'
 import AddRecipe from './AddRecipeComponent/AddRecipe'
+import EditRecipe from './EditingComponent/EditRecipe'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -28,6 +29,7 @@ const router = createBrowserRouter(
         <Route path="*" element={<ErrorPage />} />
       </Route>
       <Route path='/add' element={<AddRecipe/>}/>
+      <Route path='/recipes/:id/edit' element={<EditRecipe />}/>
     </>
   )
 );
