@@ -82,7 +82,7 @@ function AddRecipe() {
                     onChange={handleChange}
                     required
                 />
-                <br />
+                <br /><br />
                 <select 
                     name="category"
                     value={newRecipe.category}
@@ -94,7 +94,7 @@ function AddRecipe() {
                         <option key={cat} value={cat}>{cat}</option>
                     ))}
                 </select>
-                <br />
+                <br /><br />
                 <input
                     type="text" 
                     name="image"
@@ -103,7 +103,7 @@ function AddRecipe() {
                     onChange={handleChange}
                     required
                 />
-                <br />
+                <br /><br />
                 <input
                     type="text"
                     name='time'
