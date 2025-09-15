@@ -17,7 +17,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch(API_URL)
+    fetch(`${API_URL}/recipes`)
       .then(r => r.json())
       .then(data => {
         const allCategories = data.map(recipe => recipe.category);

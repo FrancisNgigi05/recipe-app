@@ -23,7 +23,7 @@ function EditRecipe() {
 
 
     useEffect(() => {
-        fetch(`${API_URL}/${id}`)
+        fetch(`${API_URL}/recipes/${id}`)
             .then((r) => {
                 if(!r.ok) {
                     throw new Error("Recipe not found");
@@ -64,7 +64,7 @@ function EditRecipe() {
             instructions: formData.instructions.split("\n").map((i) => i.trim())
         };
 
-        fetch(`${API_URL}/${id}`, {
+        fetch(`${API_URL}/recipes/${id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"

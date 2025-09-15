@@ -52,7 +52,7 @@ function AddRecipe() {
     function handleSubmit(e) {
         e.preventDefault();
         
-        fetch(`${API_URL}`, {
+        fetch(`${API_URL}/recipes`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

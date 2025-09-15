@@ -11,7 +11,7 @@ function CategoryPage() {
     const [searchTerm, setSearchTerm] = useState("");
 
     useEffect(() => {
-        fetch(API_URL)
+        fetch(`${API_URL}/recipes`)
             .then(r => r.json())
             .then(data => {
                 const filtered = data.filter(recipe => recipe.category.toLowerCase() === category.toLocaleLowerCase());

@@ -11,7 +11,7 @@ function RecipeDetail() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`${API_URL}/${recipeId}`)
+    fetch(`${API_URL}/recipes/${recipeId}`)
       .then(r => {
         if(!r.ok) {
           throw new Error("Recipe not found");
