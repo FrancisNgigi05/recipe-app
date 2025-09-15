@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import { useParams, Link, NavLink } from 'react-router-dom'
-import { API_URL } from '../../api'
+import { API_URL } from '../api'
 import './CategoryPage.css'
 import { ArrowLeft } from 'lucide-react'
 import SearchBar from '../SearchComponent/SearchBar'

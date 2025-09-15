@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink, useNavigate, useParams } from 'react-router-dom'
-import { API_URL } from '../../api';
+import { API_URL } from '../api';
 import './EditRecipe.css'
 import { CATEGORIES } from '../constants';
 import { ArrowLeft } from 'lucide-react';
