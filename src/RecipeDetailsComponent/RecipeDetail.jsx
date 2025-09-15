@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import { NavLink, Outlet, useParams, useNavigate } from 'react-router-dom'
-import { API_URL } from '../../api';
+import { API_URL } from '../api';
 import './RecipeDetail.css'
-import { ArrowLeft, Edit } from 'lucide-react';
+import { ArrowLeft} from 'lucide-react';
 
 function RecipeDetail() {
   const [recipe, setRecipe] = useState(null);

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {  useNavigate, NavLink } from 'react-router-dom';
-import { API_URL } from '../../api';
+import { API_URL } from '../api';
 import { CATEGORIES } from '../constants';
 import { ArrowLeft } from 'lucide-react';
 

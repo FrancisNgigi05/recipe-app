@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { API_URL } from '../../api';
+import { API_URL } from '../api';
 import { Link } from 'react-router-dom';
 import './App.css'
 import BreakfastImage from "../assets/BreakfastImage.jpeg";

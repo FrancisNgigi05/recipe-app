@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom';
-import { API_URL } from '../../api';
+import { API_URL } from '../api';
 
 function Preparation() {
     const [instruction, setInstruction] = useState([]);
