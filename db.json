@@ -1,0 +1,332 @@
+{
+  "recipes": [
+    {
+      "id": "3",
+      "title": "Smoothie Bowl",
+      "category": "Breakfast",
+      "ingredients": [
+        "1 banana",
+        "1 cup berries",
+        "1/2 cup yogurt",
+        "Granola",
+        "Honey"
+      ],
+      "instructions": [
+        "Blend banana, berries, and yogurt until smooth.",
+        "Pour into a bowl and top with granola and honey."
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1663840135654-b4119f34a720?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c21vb3RoaWUlMjBib3dsfGVufDB8fDB8fHww",
+      "time": "8 mins"
+    },
+    {
+      "id": "5",
+      "title": "Avocado Toast",
+      "category": "Breakfast",
+      "ingredients": [
+        "2 slices bread",
+        "1 avocado",
+        "Salt",
+        "Pepper",
+        "Olive oil"
+      ],
+      "instructions": [
+        "Toast the bread.",
+        "Mash avocado with salt, pepper, and olive oil.",
+        "Spread on toast and serve."
+      ],
+      "image": "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QXZvY2FkbyUyMHRvYXN0fGVufDB8fDB8fHww",
+      "time": "7 mins"
+    },
+    {
+      "id": "6",
+      "title": "Grilled Chicken Salad",
+      "category": "Lunch",
+      "ingredients": [
+        "Chicken breast",
+        "Lettuce",
+        "Tomatoes",
+        "Cucumber",
+        "Olive oil",
+        "Lemon juice"
+      ],
+      "instructions": [
+        "Grill chicken breast until cooked.",
+        "Chop vegetables and mix in a bowl.",
+        "Slice chicken and add on top.",
+        "Drizzle with olive oil and lemon juice."
+      ],
+      "image": "https://media.istockphoto.com/id/1349067702/photo/greek-salad-with-vinaigrette-dressing-topped-with-grilled-chicken.webp?a=1&b=1&s=612x612&w=0&k=20&c=yCKdJ_Ggu4GAJxsSkVTOk68N3SnPO-zXu4x4CuvUnK0=",
+      "time": "25 mins"
+    },
+    {
+      "id": "7",
+      "title": "Spaghetti Bolognese",
+      "category": "Lunch",
+      "ingredients": [
+        "Spaghetti",
+        "Ground beef",
+        "Tomato sauce",
+        "Onion",
+        "Garlic",
+        "Olive oil"
+      ],
+      "instructions": [
+        "Cook spaghetti as per instructions.",
+        "Sauté onion and garlic in olive oil.",
+        "Add ground beef and cook until browned.",
+        "Stir in tomato sauce and simmer.",
+        "Serve over spaghetti."
+      ],
+      "image": "https://images.unsplash.com/photo-1622973536968-3ead9e780960?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3BhZ2hldHRpJTIwQm9sb2duZXNlfGVufDB8fDB8fHww",
+      "time": "40 mins"
+    },
+    {
+      "id": "8",
+      "title": "Grilled Cheese Sandwich",
+      "category": "Lunch",
+      "ingredients": [
+        "2 slices bread",
+        "Cheese",
+        "Butter"
+      ],
+      "instructions": [
+        "Butter the bread slices.",
+        "Place cheese between slices.",
+        "Grill until bread is golden and cheese melts."
+      ],
+      "image": "https://media.istockphoto.com/id/1974779756/photo/breakfast-food-and-drink.webp?a=1&b=1&s=612x612&w=0&k=20&c=QUlwkuExBphF2qpJbQvPk7TuHurftiHBSjn8JANZ2G8=",
+      "time": "10 mins"
+    },
+    {
+      "id": "9",
+      "title": "Chicken Wrap",
+      "category": "Lunch",
+      "ingredients": [
+        "Tortilla wrap",
+        "Cooked chicken",
+        "Lettuce",
+        "Tomato",
+        "Mayonnaise"
+      ],
+      "instructions": [
+        "Place chicken, lettuce, and tomato on tortilla.",
+        "Spread mayonnaise and wrap tightly.",
+        "Slice in half and serve."
+      ],
+      "image": "https://media.istockphoto.com/id/888366454/photo/chicken-wrap.webp?a=1&b=1&s=612x612&w=0&k=20&c=10lsZ0jLlixChZWy6tmyWq-0Rc229nzomSg3tluUzeI=",
+      "time": "12 mins"
+    },
+    {
+      "id": "10",
+      "title": "Rice Bowl",
+      "category": "Lunch",
+      "ingredients": [
+        "Cooked rice",
+        "Chicken or tofu",
+        "Vegetables",
+        "Soy sauce",
+        "Sesame oil"
+      ],
+      "instructions": [
+        "Cook rice and set aside.",
+        "Stir fry vegetables and protein of choice.",
+        "Add soy sauce and sesame oil.",
+        "Serve over rice."
+      ],
+      "image": "https://media.istockphoto.com/id/1862122235/photo/chicken-teriyaki-donburi-in-a-bowl.webp?a=1&b=1&s=612x612&w=0&k=20&c=YLtpSoY4HJjP8fTUkT3NXl68Rw7_8Ko62G4XJxKx3n4=",
+      "time": "25 mins"
+    },
+    {
+      "id": "12",
+      "title": "Fruit Salad",
+      "category": "Snacks",
+      "ingredients": [
+        "Apple",
+        "Banana",
+        "Orange",
+        "Grapes",
+        "Honey"
+      ],
+      "instructions": [
+        "Chop all fruits into bite-sized pieces.",
+        "Mix in a bowl and drizzle with honey."
+      ],
+      "image": "https://media.istockphoto.com/id/1225981808/photo/healthy-homemade-fruit-salad-bowl-shot-from-above.webp?a=1&b=1&s=612x612&w=0&k=20&c=llSU8kL67h7yEoznAwgbtRxw3VyS3K6wAPK7Q9LwO8Y=",
+      "time": "10 mins"
+    },
+    {
+      "id": "13",
+      "title": "Hummus and Veggies",
+      "category": "Snacks",
+      "ingredients": [
+        "Carrots",
+        "Cucumber",
+        "Bell pepper",
+        "Hummus"
+      ],
+      "instructions": [
+        "Chop vegetables into sticks.",
+        "Serve with hummus for dipping."
+      ],
+      "image": "https://media.istockphoto.com/id/1300836710/photo/crop-shot-of-plate-with-colorful-healthy-sliced-vegetables-and-dips.webp?a=1&b=1&s=612x612&w=0&k=20&c=n1HJlpHeuBTa4HoK0OUhrGKNk8Lz3k5QxxN7-YUxDm4=",
+      "time": "8 mins"
+    },
+    {
+      "title": "Popcorn",
+      "category": "Breakfast",
+      "image": "https://media.istockphoto.com/id/2173342883/photo/popcorn-falling-into-a-plate-on-a-white-background-isolated.webp?a=1&b=1&s=612x612&w=0&k=20&c=YO5WTjm5XbeH0685-m1E6U-52HXYxLXwGK-qRzf8Ofw=",
+      "ingredients": [
+        "Popcorn kernels",
+        "Oil",
+        "Salt",
+        "Caramel"
+      ],
+      "instructions": [
+        "Heat oil in a pot.",
+        "Add popcorn kernels and cover.",
+        "Wait until popping slows down.",
+        "Sprinkle with salt.",
+        "Sprinkle with sugar"
+      ],
+      "time": "15 mins",
+      "id": "14"
+    },
+    {
+      "id": "15",
+      "title": "Granola Bars",
+      "category": "Snacks",
+      "ingredients": [
+        "Oats",
+        "Honey",
+        "Peanut butter",
+        "Nuts",
+        "Dried fruits"
+      ],
+      "instructions": [
+        "Mix oats, honey, and peanut butter.",
+        "Stir in nuts and dried fruits.",
+        "Press into a tray and refrigerate.",
+        "Cut into bars."
+      ],
+      "image": "https://plus.unsplash.com/premium_photo-1726490292042-7587d23d52de?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R3Jhbm9sYSUyMGJhcnN8ZW58MHx8MHx8fDA%3D",
+      "time": "30 mins"
+    },
+    {
+      "id": "16",
+      "title": "Grilled Salmon",
+      "category": "Dinner",
+      "ingredients": [
+        "Salmon fillet",
+        "Lemon",
+        "Olive oil",
+        "Garlic",
+        "Herbs"
+      ],
+      "instructions": [
+        "Season salmon with olive oil, garlic, and herbs.",
+        "Grill until cooked through.",
+        "Squeeze lemon juice before serving."
+      ],
+      "image": "https://media.istockphoto.com/id/175028181/photo/fillet-of-salmon-with-vegetable.webp?a=1&b=1&s=612x612&w=0&k=20&c=d-Z0taRnxiqpIjIF3ClMy4_nwPwn49ib-Vq7gwE6_HM=",
+      "time": "20 mins"
+    },
+    {
+      "id": "17",
+      "title": "Beef Stir Fry",
+      "category": "Dinner",
+      "ingredients": [
+        "Beef strips",
+        "Vegetables",
+        "Soy sauce",
+        "Garlic",
+        "Ginger"
+      ],
+      "instructions": [
+        "Heat oil in a pan.",
+        "Add beef and cook until browned.",
+        "Stir fry vegetables, garlic, and ginger.",
+        "Mix in soy sauce and serve."
+      ],
+      "image": "https://media.istockphoto.com/id/642065070/photo/beef-and-broccoli-stir-fry.webp?a=1&b=1&s=612x612&w=0&k=20&c=hzLrTIv4z2VM2sWcBMhDDyFtlt67uFI2SshOE9-GuR8=",
+      "time": "25 mins"
+    },
+    {
+      "id": "18",
+      "title": "Vegetable Curry",
+      "category": "Dinner",
+      "ingredients": [
+        "Mixed vegetables",
+        "Coconut milk",
+        "Curry paste",
+        "Onion",
+        "Garlic"
+      ],
+      "instructions": [
+        "Sauté onion and garlic.",
+        "Add curry paste and cook briefly.",
+        "Stir in vegetables and coconut milk.",
+        "Simmer until vegetables are tender."
+      ],
+      "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmVnZXRhYmxlJTIwY3Vycnl8ZW58MHx8MHx8fDA%3D",
+      "time": "35 mins"
+    },
+    {
+      "id": "19",
+      "title": "Chicken Alfredo",
+      "category": "Dinner",
+      "ingredients": [
+        "Pasta",
+        "Chicken breast",
+        "Cream",
+        "Parmesan cheese",
+        "Garlic",
+        "Butter"
+      ],
+      "instructions": [
+        "Cook pasta according to package.",
+        "Sauté garlic in butter.",
+        "Add chicken and cook until done.",
+        "Stir in cream and parmesan.",
+        "Mix with pasta."
+      ],
+      "image": "https://media.istockphoto.com/id/154920482/photo/chicken-fettuccine-alfredo.webp?a=1&b=1&s=612x612&w=0&k=20&c=DL16J28wlo77tz0q6HkiNeWSjkHVryi947I-AAKOWU4=",
+      "time": "30 mins"
+    },
+    {
+      "id": "20",
+      "title": "Stuffed Peppers",
+      "category": "Dinner",
+      "ingredients": [
+        "Bell peppers",
+        "Rice",
+        "Ground beef",
+        "Tomato sauce",
+        "Cheese"
+      ],
+      "instructions": [
+        "Cook rice and ground beef.",
+        "Mix with tomato sauce.",
+        "Stuff mixture into bell peppers.",
+        "Top with cheese and bake."
+      ],
+      "image": "https://media.istockphoto.com/id/1663973235/photo/italian-style-stuffed-peppers.webp?a=1&b=1&s=612x612&w=0&k=20&c=KF6r5nc0X9Uui33Tr4hLA8o_LJEeDi46t2tGFhB3T2o=",
+      "time": "45 mins"
+    },
+    {
+      "id": "663b",
+      "title": "Chicken Fried rice",
+      "category": "Lunch",
+      "image": "https://media.istockphoto.com/id/1313420026/photo/kimchi-fried-rice.webp?a=1&b=1&s=612x612&w=0&k=20&c=fRtZb7HAexqK-0b9Q9u28zCd2HBdwcjCp8rsjTFMdqQ=",
+      "time": "25 mins",
+      "ingredients": [
+        "2 cups cooked rice (preferably day-old)",
+        "1 cup cooked chicken, diced",
+        "2 eggs, lightly beaten"
+      ],
+      "instructions": [
+        "Heat 1 tbsp oil in a wok or large pan. Scramble eggs, then set aside.",
+        "Add remaining oil, sauté garlic, carrots, and peas until tender."
+      ]
+    }
+  ]
+}
